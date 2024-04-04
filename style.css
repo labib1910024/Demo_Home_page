@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Delicious+Handrawn&family=Poppins&display=swap');
+
+body{
+    font-family: 'Anuphan', sans-serif;
+
+}
+.float-div1 img{
+    float: left;
+}
+.float-div1 p{
+    
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 40px;
+    
+}
+
+.float-div2 p{
+
+    padding-left: 400px;
+}
+.float-div2 h1{
+    
+    padding-left: 400px;
+    padding-top:  15px;
+}
+.footer{
+    background-color: rgb(129, 129, 126);
+    height: 35px;
+}
+.footer p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.float-div2 ul{
+    float: left;
+    background-color: rgb(215, 211, 207);
+    text-align: left;
+    width: 300px;
+    height: 230px;
+}
+
+.float-div2 ul li{
+    border-bottom: 1px solid #000000;
+    padding-top: 20px;
+}
+
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
